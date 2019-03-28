@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Celebrity Dating</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating Quiz</h1>
+        <p>Which celebrity should you be shipped with?</p>
+
+      <form id="quiz">
+        <label for="Name">Name</label>
+        <input id="name" type="text">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="nonbinary">Non-binary</option>
+        </select>
+        <select id="orientation">
+          <option value="straight">straight</option>
+          <option value="queer">queer</option>
+        </select>
+        <input type="color" id="colorPick"></input>
+
+        <button type="submit" class="btn">Reveal my celebrity partner!</button>
+      </form>
+
+      <!-- <div id="showColor">
+        <div class="red">
+        </div>
+      </div> -->
+
+      <div id="showAnswer">
+        <div class="straightF">
+          <span id="spanSF">
+            <h1>straightF works</h1>
+          </span>
+        </div>
+        <div class="straightM">
+          <h1>straightM works</h1>
+        </div>
+        <div class="straightNB">
+          <h1>straightNB works</h1>
+        </div>
+        <div class="queerF">
+          <h1>queerF works</h1>
+        </div>
+        <div class="queerM">
+          <h1>queerM works</h1>
+        </div>
+        <div class="queerNB">
+          <h1>queerNB works</h1>
+        </div>
+
+      </div>
+
+      <!-- <div id="straightGuyMatches">
+        <p>Your ideal celebrity date is...
+        </p>
+      </div>
+
+      <div id="qGuyMatches">
+        <p>Your ideal celebrity date is...
+        </p>
+      </div>
+
+      <div id="straightLadyMatches">
+        <p>Your ideal celebrity date is...
+        </p>
+      </div>
+
+      <div id="qLadyMatches">
+        <p>Your ideal celebrity date is...
+        </p>
+      </div>
+
+      <div id="qLadyMatches">
+        <p>Your ideal celebrity date is...
+        </p>
+      </div> -->
+
+    </div>
+  </body>
+
+  </html>
