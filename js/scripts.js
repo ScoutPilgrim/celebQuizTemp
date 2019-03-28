@@ -87,6 +87,6 @@ $(document).ready(function() {
     }
   }
   function hobbyPath(color){
-    $('#showAnswer').find('h1').css('color', color)
+    $('#showAnswer').find('h1').css('color', color);
   }
 });
